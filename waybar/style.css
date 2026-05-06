@@ -1,0 +1,46 @@
+* {
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+#waybar {
+  color: #eeeeee;
+  background-color: #000000;
+}
+
+#workspaces button {
+  color: #aaaaaa;
+  padding-left: 0.55555em;
+}
+
+#workspaces button.empty {
+  color: #aaaaaa;
+}
+
+#pulseaudio {
+  padding-left: 1em;
+}
+
+#clock,
+#cpu,
+#memory,
+#temperature,
+#tray,
+#power-profiles-daemon,
+#custom-cpu_temp,
+#custom-gpu_temp,
+#custom-date,
+#custom-headphones,
+#custom-mic,
+#pulseaudio {
+  padding-right: 1em;
+}
+
+.custom-spotify {
+  font-size: 14px;
+  color: white;
+  padding: 0 0.6px;
+  margin: 0 4px 0 4px;
+}
